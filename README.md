@@ -13,13 +13,9 @@
    ```
 
 ## Test
-1. Install [mocha](https://github.com/mochajs/mocha)
+  Install [mocha](https://github.com/mochajs/mocha)
 
    ```
    $ npm install -g mocha
-   ```
-2. Run the test
-
-   ```
-   $ mocha test/test.js
+   $ mocha
    ```
