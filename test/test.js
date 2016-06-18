@@ -27,6 +27,16 @@ describe('testing all', function () {
     });
 	});
 
+	it("should reserve a job from Fivebeans", function (done) {
+    producer.start();
+    let reserve = fivebeansHelper.reserve(config.fivebeans_tubename);
+    reserve.then(function(job) {
+      job.data.should.have.property('from', 'HKD');
+      job.data.should.have.property('to', 'USD');
+      done();
+    });
+	});
+
 
 });
 /*********************************************
