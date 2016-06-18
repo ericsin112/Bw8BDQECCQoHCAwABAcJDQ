@@ -15,6 +15,7 @@
     "fivebeans": "^1.4.1",
     "mongoose": "^4.4.20",
     "request": "^2.72.0",
-    "request-promise": "^3.0.0"
+    "request-promise": "^3.0.0",
+    "should": "^9.0.2"
   }
 }
